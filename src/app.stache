@@ -1,0 +1,3 @@
+<can-import from="./components/my-component" />
+
+<my-component />

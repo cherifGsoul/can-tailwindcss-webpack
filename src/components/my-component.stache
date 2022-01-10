@@ -1,0 +1,3 @@
+<button on:click="this.increment()">+</button>
+{{ this.count }}
+<button on:click="this.decrement()">-</button>
