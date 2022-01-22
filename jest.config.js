@@ -10,9 +10,12 @@ module.exports = {
         "/node_modules/(?!can)"
     ],
     moduleFileExtensions: ["js", "stache"],
+    moduleNameMapper: {
+        '\\.(css)$': '<rootDir>/style-mock.js'
+    },
     transform: {
         "^.+\\.js$": "babel-jest",
         "^.+\\.mjs$": "babel-jest",
-        "^.+\\.stache$": './stache-transformer.js',
+        "^.+\\.stache$": 'can-stache-transform',
     },
 }
