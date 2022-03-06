@@ -29,7 +29,7 @@
         "babel-loader": "^8.2.3",
         "can-stache-ast": "^1.1.0",
         "can-stache-loader": "^3.0.0",
-        "can-stache-transform": "file:../stache-transform",
+        "can-stache-transform": "^0.1.0",
         "css-loader": "^6.5.1",
         "cssnano": "^5.0.15",
         "html-webpack-plugin": "^5.5.0",
